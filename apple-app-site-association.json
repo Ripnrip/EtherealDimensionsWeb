@@ -1,0 +1,12 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "ABCDE12345.com.binarybros.EtherealDimension",
+                "paths": [ "*" ]
+            }
+        ]
+    }
+}
+
