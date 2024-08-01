@@ -1,0 +1,15 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "5Y7NBCKHJP.com.binarybros.EtherealDimension",
+                "paths": [ "*" ]
+            }
+        ]
+    },
+    "appclips": {
+        "apps": ["5Y7NBCKHJP.com.binarybros.EtherealDimension.Clip"]
+    }
+}
+
