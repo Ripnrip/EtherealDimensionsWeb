@@ -3,10 +3,13 @@
         "apps": [],
         "details": [
             {
-                "appID": "ABCDE12345.com.binarybros.EtherealDimension",
+                "appID": "5Y7NBCKHJP.com.binarybros.EtherealDimension",
                 "paths": [ "*" ]
             }
         ]
+    },
+    "appclips": {
+        "apps": ["5Y7NBCKHJP.com.binarybros.EtherealDimension.Clip"]
     }
 }
 
