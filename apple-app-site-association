@@ -9,7 +9,15 @@
         ]
     },
     "appclips": {
-        "apps": ["5Y7NBCKHJP.com.binarybros.EtherealDimension.Clip"]
+        "apps": [
+            {
+                "appID": "5Y7NBCKHJP.com.binarybros.EtherealDimension.Clip",
+                "paths": [
+                    "/advanced/*",
+                    "/", 
+                    "geo/*"
+                ]
+            }
+        ]
     }
 }
-
