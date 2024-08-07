@@ -1,4 +1,2 @@
 /apple-app-site-association
   Content-Type: application/json
-/.well-known/apple-site-association
-  Content-Type: application/json
