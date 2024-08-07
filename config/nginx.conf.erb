@@ -1,0 +1,30 @@
+worker_processes 1;
+events { worker_connections 1024; }
+
+http {
+  include mime.types;
+  default_type application/octet-stream;
+
+  server {
+    listen <%= ENV["PORT"] %>;
+    root /app;
+
+    # Serve the apple-app-site-association file with application/json content type
+    location = /apple-app-site-association {
+      default_type application/json;
+      add_header Content-Type application/json;
+    }
+
+    # Serve all other files
+    location / {
+      try_files $uri $uri/ /index.html;
+    }
+
+    # Error pages
+    error_page 500 502 503 504 /500.html;
+    location = /500.html {
+      root /app;
+    }
+  }
+}
+

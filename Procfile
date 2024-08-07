@@ -1,2 +1,3 @@
-web: npx serve -s
+web: bin/start-nginx
+
 
