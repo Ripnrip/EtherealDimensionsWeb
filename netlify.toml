@@ -1,3 +1,7 @@
+[build]
+  publish = "/"
+  command = ""
+
 [[headers]]
   for = "/apple-app-site-association"
   [headers.values]
@@ -14,8 +18,17 @@
     Cache-Control = "public,max-age=0,must-revalidate"
     Strict-Transport-Security = "max-age=31536000; includeSubDomains"
 
-[build]
-  publish = "build"
 
-[redirects]
+[[redirects]]
+  from = "/.well-known/apple-app-site-association"
+  to = "/.well-known/apple-app-site-association"
+  status = 200
+  force = true
+  trailing_slash = false
+
+[[redirects]]
+  from = "/apple-app-site-association"
+  to = "/apple-app-site-association"
+  status = 200
+  force = true
   trailing_slash = false
