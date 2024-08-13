@@ -4,7 +4,7 @@
     "details": [
       {
         "appID": "5Y7NBCKHJP.com.binarybros.EtherealDimension",
-        "paths": ["*"]
+        "paths": ["*","/*/geo/*"]
       }
     ]
   },
@@ -12,7 +12,7 @@
     "apps": [
       {
         "appID": "5Y7NBCKHJP.com.binarybros.EtherealDimension.Clip",
-        "paths": ["*"]
+        "paths": ["*","/*/geo/*"]
       }
     ]
   }
