@@ -18,3 +18,10 @@
     Content-Type = "application/json"
     Cache-Control = "public,max-age=0"
     X-Content-Type-Options = "nosniff"
+
+  [[headers]]
+  for = "/.well-known/apple-app-site-association"
+  [headers.values]
+    Content-Type = "application/json"
+    Cache-Control = "public,max-age=0"
+    X-Content-Type-Options = "nosniff"
